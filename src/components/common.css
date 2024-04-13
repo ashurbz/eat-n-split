@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.layout_container{
+    padding: 10px;
+    margin: 10px;
+    background-color: darkcyan;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.friend_data{
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    font-family: cursive;
+    background-color: antiquewhite;
+    font-size: xx-large;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 5px;
+   
+}
+
+.friend_data > div{
+    padding: 20px;
+   
+}
+
+.friend_data>div>h4{
+    color: darkmagenta;
+}
+
+.friend_data>div>img{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+ button{
+  
+    font-weight: 700;
+    font-size: x-large;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    background-color: orange;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.form_container{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: lightslategrey;
+
+}
+
+
+
+.image_field>label{
+    padding: 10px;
+    margin: 10px;
+    font: 500;
+    font-family: cursive;
+    font-size: large;
+}
+
+.image_field>input{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.name_field>label{
+    padding: 10px;
+    margin: 10px;
+    font: 500;
+    font-family: cursive;
+    font-size: large;
+}
+
+.name_field>input{
+    padding: 10px;
+    margin: 20px;
+    margin-left: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.right{
+    position: relative;
+    left: 550px;
+}
+
+.right1{
+    position: relative;
+    left: 500px;
+}
+
+
+
+
+

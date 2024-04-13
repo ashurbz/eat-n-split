@@ -5,10 +5,10 @@ const Friend = ({ data }) => {
   return (
     <div className="friend_data">
       <div>
-        <img src={data.img} alt="" />
+        <img src={data.image} alt="" />
       </div>
       <div>
-        <h4>{data.friendName}</h4>
+        <h4>{data.name}</h4>
         <p>{data.balance}</p>
       </div>
       <div>

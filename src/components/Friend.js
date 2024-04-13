@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./common.css";
-const Friend = ({ data }) => {
+const Friend = ({ data, selectedFriend }) => {
+  const handleOnClick = () => {
+    selectedFriend(data);
+  };
   return (
     <div className="friend_data">
       <div>
@@ -12,7 +15,7 @@ const Friend = ({ data }) => {
         <p>{data.balance}</p>
       </div>
       <div>
-        <button>Select</button>
+        <button onClick={handleOnClick}>Select</button>
       </div>
     </div>
   );

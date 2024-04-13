@@ -5,8 +5,7 @@
 }
 
 .layout_container{
-    padding: 10px;
-    margin: 10px;
+   
     background-color: darkcyan;
     height: 100%;
     width: 100vw;
@@ -108,7 +107,45 @@
     left: 500px;
 }
 
+.bill-form_container{
+padding: 30px;
+margin: 10px;
+border: 1px solid black;
+border-radius: 10px;
+background-color: beige;
+display: flex;
+flex-direction: column;
+}
 
+label{
+    padding: 10px;
+    margin: 10px;
+    font: 500;
+    font-family: cursive;
+    font-size: large;
+}
+
+input {
+    padding: 10px;
+    margin: 20px;
+    margin-left: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+select{
+    padding: 10px;
+    margin: 20px;
+    margin-left: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.gap{
+    position: relative;
+    left: 25px;
+}
 
 
 

@@ -30,6 +30,8 @@ const AddFriendForm = ({ addFriend }) => {
       balance: 0,
     };
     addFriend(newFriend);
+
+    setName("");
   };
 
   return (
